@@ -1,0 +1,53 @@
+{
+    "id": {
+        "0": "EXFNUS"
+    },
+    "realtime_start": {
+        "0": "2022-04-12"
+    },
+    "realtime_end": {
+        "0": "2022-04-12"
+    },
+    "title": {
+        "0": "Finland / U.S. Foreign Exchange Rate (DISCONTINUED)"
+    },
+    "observation_start": {
+        "0": "1971-01-01"
+    },
+    "observation_end": {
+        "0": "2001-12-01"
+    },
+    "frequency": {
+        "0": "Monthly"
+    },
+    "frequency_short": {
+        "0": "M"
+    },
+    "units": {
+        "0": "Finnish Markkas to One U.S. Dollar"
+    },
+    "units_short": {
+        "0": "Finnish Markkas to  1 U.S. $"
+    },
+    "seasonal_adjustment": {
+        "0": "Not Seasonally Adjusted"
+    },
+    "seasonal_adjustment_short": {
+        "0": "NSA"
+    },
+    "last_updated": {
+        "0": "2006-03-08 09:21:33-06"
+    },
+    "popularity": {
+        "0": 6
+    },
+    "group_popularity": {
+        "0": 6
+    },
+    "notes": {
+        "0": "Averages of daily figures. Noon buying rates in New York City for cable transfers payable in foreign currencies. Starting January 1999 derived using the official fixed euro conversion rates."
+    },
+    "category_id": {
+        "0": "279"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "id": {
+        "0": "AEXCHUS",
+        "1": "DEXCHUS",
+        "2": "EXCHUS"
+    },
+    "realtime_start": {
+        "0": "2022-04-12",
+        "1": "2022-04-12",
+        "2": "2022-04-12"
+    },
+    "realtime_end": {
+        "0": "2022-04-12",
+        "1": "2022-04-12",
+        "2": "2022-04-12"
+    },
+    "title": {
+        "0": "Chinese Yuan Renminbi to U.S. Dollar Spot Exchange Rate",
+        "1": "Chinese Yuan Renminbi to U.S. Dollar Spot Exchange Rate",
+        "2": "Chinese Yuan Renminbi to U.S. Dollar Spot Exchange Rate"
+    },
+    "observation_start": {
+        "0": "1981-01-01",
+        "1": "1981-01-02",
+        "2": "1981-01-01"
+    },
+    "observation_end": {
+        "0": "2021-01-01",
+        "1": "2022-04-08",
+        "2": "2022-03-01"
+    },
+    "frequency": {
+        "0": "Annual",
+        "1": "Daily",
+        "2": "Monthly"
+    },
+    "frequency_short": {
+        "0": "A",
+        "1": "D",
+        "2": "M"
+    },
+    "units": {
+        "0": "Chinese Yuan Renminbi to One U.S. Dollar",
+        "1": "Chinese Yuan Renminbi to One U.S. Dollar",
+        "2": "Chinese Yuan Renminbi to One U.S. Dollar"
+    },
+    "units_short": {
+        "0": "Chinese Yuan Renminbi to  1 U.S. $",
+        "1": "Chinese Yuan Renminbi to  1 U.S. $",
+        "2": "Chinese Yuan Renminbi to  1 U.S. $"
+    },
+    "seasonal_adjustment": {
+        "0": "Not Seasonally Adjusted",
+        "1": "Not Seasonally Adjusted",
+        "2": "Not Seasonally Adjusted"
+    },
+    "seasonal_adjustment_short": {
+        "0": "NSA",
+        "1": "NSA",
+        "2": "NSA"
+    },
+    "last_updated": {
+        "0": "2022-01-03 15:36:03-06",
+        "1": "2022-04-11 15:20:03-05",
+        "2": "2022-04-04 15:20:07-05"
+    },
+    "popularity": {
+        "0": 28,
+        "1": 66,
+        "2": 54
+    },
+    "group_popularity": {
+        "0": 69,
+        "1": 69,
+        "2": 69
+    },
+    "notes": {
+        "0": "Averages of daily figures. Noon buying rates in New York City for cable transfers payable in foreign currencies.",
+        "1": "Noon buying rates in New York City for cable transfers payable in foreign currencies.",
+        "2": "Averages of daily figures. Noon buying rates in New York City for cable transfers payable in foreign currencies.\n\nThis data series is updated from the source files in the Data Download Program (http://www.federalreserve.gov/datadownload/Choose.aspx?rel=h10). The files are updated on a weekly basis every Monday. If Monday is a holiday, the data files are updated the next business day.\n\nMonthly values are averages of the daily data available. Preliminary value for the current month is provided by the source even if not all daily values are available for the entire month.\n\nPlease note that the values reported on the press release may not correspond to the values in the Data Download Program when the press release is published on a day other than Monday. This inconsistency is resolved on the next available weekly release date."
+    },
+    "category_id": {
+        "0": "282",
+        "1": "282",
+        "2": "282"
+    }
+}
