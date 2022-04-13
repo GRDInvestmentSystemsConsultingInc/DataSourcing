@@ -1,0 +1,155 @@
+{
+    "id": {
+        "0": "ECBESTRNUMACTBANKS",
+        "1": "ECBESTRNUMTRANS",
+        "2": "ECBESTRRT25THPCTVOL",
+        "3": "ECBESTRRT75THPCTVOL",
+        "4": "ECBESTRSHRVOL5LRGACTBNK",
+        "5": "ECBESTRTOTVOL",
+        "6": "ECBESTRVOLWGTTRMDMNRT"
+    },
+    "realtime_start": {
+        "0": "2022-04-12",
+        "1": "2022-04-12",
+        "2": "2022-04-12",
+        "3": "2022-04-12",
+        "4": "2022-04-12",
+        "5": "2022-04-12",
+        "6": "2022-04-12"
+    },
+    "realtime_end": {
+        "0": "2022-04-12",
+        "1": "2022-04-12",
+        "2": "2022-04-12",
+        "3": "2022-04-12",
+        "4": "2022-04-12",
+        "5": "2022-04-12",
+        "6": "2022-04-12"
+    },
+    "title": {
+        "0": "Euro Short-Term Rate: Number of Active Banks",
+        "1": "Euro Short-Term Rate: Number of Transactions",
+        "2": "Euro Short-Term Rate: Rate at 25th Percentile of Volume",
+        "3": "Euro Short-Term Rate: Rate at 75th Percentile of Volume",
+        "4": "Euro Short-Term Rate: Share of Volume of the 5 Largest Active Banks",
+        "5": "Euro Short-Term Rate: Total Volume",
+        "6": "Euro Short-Term Rate: Volume-Weighted Trimmed Mean Rate"
+    },
+    "observation_start": {
+        "0": "2019-10-01",
+        "1": "2019-10-01",
+        "2": "2019-10-01",
+        "3": "2019-10-01",
+        "4": "2019-10-01",
+        "5": "2019-10-01",
+        "6": "2019-10-01"
+    },
+    "observation_end": {
+        "0": "2022-03-14",
+        "1": "2022-03-14",
+        "2": "2022-03-14",
+        "3": "2022-03-14",
+        "4": "2022-03-14",
+        "5": "2022-03-14",
+        "6": "2022-03-14"
+    },
+    "frequency": {
+        "0": "Daily",
+        "1": "Daily",
+        "2": "Daily",
+        "3": "Daily",
+        "4": "Daily",
+        "5": "Daily",
+        "6": "Daily"
+    },
+    "frequency_short": {
+        "0": "D",
+        "1": "D",
+        "2": "D",
+        "3": "D",
+        "4": "D",
+        "5": "D",
+        "6": "D"
+    },
+    "units": {
+        "0": "Number",
+        "1": "Number",
+        "2": "Percent",
+        "3": "Percent",
+        "4": "Percent",
+        "5": "Millions of Euro",
+        "6": "Percent"
+    },
+    "units_short": {
+        "0": "Mil. of Euro",
+        "1": "Number",
+        "2": "Number",
+        "3": "%",
+        "4": "%",
+        "5": "%",
+        "6": "%"
+    },
+    "seasonal_adjustment": {
+        "0": "Not Seasonally Adjusted",
+        "1": "Not Seasonally Adjusted",
+        "2": "Not Seasonally Adjusted",
+        "3": "Not Seasonally Adjusted",
+        "4": "Not Seasonally Adjusted",
+        "5": "Not Seasonally Adjusted",
+        "6": "Not Seasonally Adjusted"
+    },
+    "seasonal_adjustment_short": {
+        "0": "NSA",
+        "1": "NSA",
+        "2": "NSA",
+        "3": "NSA",
+        "4": "NSA",
+        "5": "NSA",
+        "6": "NSA"
+    },
+    "last_updated": {
+        "0": "2022-03-15 04:20:48-05",
+        "1": "2022-03-15 04:20:47-05",
+        "2": "2022-03-15 04:20:47-05",
+        "3": "2022-03-15 04:20:47-05",
+        "4": "2022-03-15 04:20:47-05",
+        "5": "2022-03-15 04:20:47-05",
+        "6": "2022-03-15 04:20:47-05"
+    },
+    "popularity": {
+        "0": 3,
+        "1": 5,
+        "2": 4,
+        "3": 5,
+        "4": 4,
+        "5": 12,
+        "6": 28
+    },
+    "group_popularity": {
+        "0": 3,
+        "1": 5,
+        "2": 4,
+        "3": 5,
+        "4": 4,
+        "5": 12,
+        "6": 28
+    },
+    "notes": {
+        "0": "The euro short-term rate (\u20acSTR) reflects the wholesale euro unsecured overnight borrowing costs of banks located in the euro area. The ECB publishes on its website the \u20acSTR at 08:00 CET on each TARGET2 business date. The \u20acSTR time series is updated on the ECB\u2019s Statistical Data Warehouse (SDW) shortly after the \u20acSTR publication.\n\nThe daily \u20acSTR is based on the transactions with overnight maturity that were traded and settled on the previous TARGET2 date. In SDW, the \u20acSTR series are indexed by time, where the time index reflects the trade date of the underlying transactions. For example, the observations on the rate, volume traded, etc. with time index 1 October 2019 reflect trading activity on that day, and correspond to the \u20acSTR published on 2 October 2019.\n\nFor further information refer to the <a href='https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_short-term_rate/html/eurostr_overview.en.html'>Overview of \u20acSTR </>.",
+        "1": "The euro short-term rate (\u20acSTR) reflects the wholesale euro unsecured overnight borrowing costs of banks located in the euro area. The ECB publishes on its website the \u20acSTR at 08:00 CET on each TARGET2 business date. The \u20acSTR time series is updated on the ECB\u2019s Statistical Data Warehouse (SDW) shortly after the \u20acSTR publication.\n\nThe daily \u20acSTR is based on the transactions with overnight maturity that were traded and settled on the previous TARGET2 date. In SDW, the \u20acSTR series are indexed by time, where the time index reflects the trade date of the underlying transactions. For example, the observations on the rate, volume traded, etc. with time index 1 October 2019 reflect trading activity on that day, and correspond to the \u20acSTR published on 2 October 2019.\n\nFor further information refer to the <a href='https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_short-term_rate/html/eurostr_overview.en.html'>Overview of \u20acSTR </>.",
+        "2": "The euro short-term rate (\u20acSTR) reflects the wholesale euro unsecured overnight borrowing costs of banks located in the euro area. The ECB publishes on its website the \u20acSTR at 08:00 CET on each TARGET2 business date. The \u20acSTR time series is updated on the ECB\u2019s Statistical Data Warehouse (SDW) shortly after the \u20acSTR publication.\n\nThe daily \u20acSTR is based on the transactions with overnight maturity that were traded and settled on the previous TARGET2 date. In SDW, the \u20acSTR series are indexed by time, where the time index reflects the trade date of the underlying transactions. For example, the observations on the rate, volume traded, etc. with time index 1 October 2019 reflect trading activity on that day, and correspond to the \u20acSTR published on 2 October 2019.\n\nFor further information refer to the <a href='https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_short-term_rate/html/eurostr_overview.en.html'>Overview of \u20acSTR </>.",
+        "3": "The euro short-term rate (\u20acSTR) reflects the wholesale euro unsecured overnight borrowing costs of banks located in the euro area. The ECB publishes on its website the \u20acSTR at 08:00 CET on each TARGET2 business date. The \u20acSTR time series is updated on the ECB\u2019s Statistical Data Warehouse (SDW) shortly after the \u20acSTR publication.\n\nThe daily \u20acSTR is based on the transactions with overnight maturity that were traded and settled on the previous TARGET2 date. In SDW, the \u20acSTR series are indexed by time, where the time index reflects the trade date of the underlying transactions. For example, the observations on the rate, volume traded, etc. with time index 1 October 2019 reflect trading activity on that day, and correspond to the \u20acSTR published on 2 October 2019.\n\nFor further information refer to the <a href='https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_short-term_rate/html/eurostr_overview.en.html'>Overview of \u20acSTR </>.",
+        "4": "The euro short-term rate (\u20acSTR) reflects the wholesale euro unsecured overnight borrowing costs of banks located in the euro area. The ECB publishes on its website the \u20acSTR at 08:00 CET on each TARGET2 business date. The \u20acSTR time series is updated on the ECB\u2019s Statistical Data Warehouse (SDW) shortly after the \u20acSTR publication.\n\nThe daily \u20acSTR is based on the transactions with overnight maturity that were traded and settled on the previous TARGET2 date. In SDW, the \u20acSTR series are indexed by time, where the time index reflects the trade date of the underlying transactions. For example, the observations on the rate, volume traded, etc. with time index 1 October 2019 reflect trading activity on that day, and correspond to the \u20acSTR published on 2 October 2019.\n\nFor further information refer to the <a href='https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_short-term_rate/html/eurostr_overview.en.html'>Overview of \u20acSTR </>.",
+        "5": "The euro short-term rate (\u20acSTR) reflects the wholesale euro unsecured overnight borrowing costs of banks located in the euro area. The ECB publishes on its website the \u20acSTR at 08:00 CET on each TARGET2 business date. The \u20acSTR time series is updated on the ECB\u2019s Statistical Data Warehouse (SDW) shortly after the \u20acSTR publication.\n\nThe daily \u20acSTR is based on the transactions with overnight maturity that were traded and settled on the previous TARGET2 date. In SDW, the \u20acSTR series are indexed by time, where the time index reflects the trade date of the underlying transactions. For example, the observations on the rate, volume traded, etc. with time index 1 October 2019 reflect trading activity on that day, and correspond to the \u20acSTR published on 2 October 2019.\n\nFor further information refer to the <a href='https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_short-term_rate/html/eurostr_overview.en.html'>Overview of \u20acSTR </>.",
+        "6": "The euro short-term rate (\u20acSTR) reflects the wholesale euro unsecured overnight borrowing costs of banks located in the euro area. The ECB publishes on its website the \u20acSTR at 08:00 CET on each TARGET2 business date. The \u20acSTR time series is updated on the ECB\u2019s Statistical Data Warehouse (SDW) shortly after the \u20acSTR publication.\n\nThe daily \u20acSTR is based on the transactions with overnight maturity that were traded and settled on the previous TARGET2 date. In SDW, the \u20acSTR series are indexed by time, where the time index reflects the trade date of the underlying transactions. For example, the observations on the rate, volume traded, etc. with time index 1 October 2019 reflect trading activity on that day, and correspond to the \u20acSTR published on 2 October 2019.\n\nFor further information refer to the <a href='https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_short-term_rate/html/eurostr_overview.en.html'>Overview of \u20acSTR </>."
+    },
+    "category_id": {
+        "0": "34007",
+        "1": "34007",
+        "2": "34007",
+        "3": "34007",
+        "4": "34007",
+        "5": "34007",
+        "6": "34007"
+    }
+}
