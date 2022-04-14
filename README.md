@@ -21,6 +21,10 @@ Construct a dictionary containing all parent and child relationships, along with
 
 3. FRED Categories (Web):  https://fred.stlouisfed.org/categories
 
+### Jupyter Notebook
+
+1. 
+
 ### FRED Data Stracture
 
 FRED utilizes parent and child ids to link levels in a hierchial manner.  
