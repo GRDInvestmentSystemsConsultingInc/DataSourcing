@@ -64,6 +64,6 @@ Note, that each category within Money, Banking, & Finance is assigned a child id
 3.  The following Excel file provides all the category relationships for the Money, Banking, & Finance category: [Category 32991 Parent-Child Category Relationships](https://github.com/GRDInvestmentSystemsConsultingInc/DataSourcing/blob/main/FRED/Category32991_parent_child_relationships.xlsx).  From left to right, each subsequent column within the Excel represents the child category of the prior until no further category levels are available.  Blank columns indicate that no further categories exist.
 4.  All parent-child relationships are captured within the three levels presented within the Excel file.
 
-### Jupyter Notebook: [MasterDictionary_Open_Category_32991.ipynb](https://github.com/GRDInvestmentSystemsConsultingInc/DataSourcing/blob/35e90405f01326e4f1d749c8cb3a1682174727b3/FRED/MasterDictionary_Open_Category_32991.ipynb)
+### Jupyter Notebook: [MasterDictionary_Open_Category_32991.ipynb](https://github.com/GRDInvestmentSystemsConsultingInc/DataSourcing/blob/782ce1ae4917d235369d41d24ff6c94bfd3c5ee7/FRED/MasterDictionary_Open_Category_32991.ipynb)
 
 This notebook illustrates how the parent-child relationships can be used in conjution with the dictionary for category 32991.  The notebook does not call any series data, as this was beyond the scope of this project, however the 'Series' API end point is used to call this data.  The user must request an API Key from FRED to source this data.
