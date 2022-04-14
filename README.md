@@ -2,17 +2,18 @@
 
 ## [FRED Data](https://github.com/GRDInvestmentSystemsConsultingInc/DataSourcing/tree/main/FRED)
 
-### Project Purpose & Scope
+### Project Purpose
 
-Construct a dictionary containing all parent and child relationships, along with the series data that is available from FRED.  This will allow for:
+Construct a dictionary containing all parent and child relationships, along with the series data that is available from FRED.
 
-1.  Greater understanding of the time series data that is available in FRED by centralizing data,
+1.  Provides greater understanding of the time series data that is available in FRED by centralizing data,
+2.  Constructs a single dictionary upon which to build an automated data sourcing platform for analytical purposes (i.e. time series analysis, ML algo, charting, etc.)
+3.  Constructs a list of time series mnemonics for a given FRED category, which can be easily integrated in addional code to call time series data from FRED
+4.  A programmatic approach to sourcing economic time series data
 
-2.  The construction of a single dictionary upon which to build an automated data sourcing platform for analytical purposes (i.e. time series analysis, ML algo, charting, etc.)
+### Project Scope
 
-3.  A programmatic approach to sourcing economic time series data,
-
-4.  The current scope of the project is for the [Money, Banking, & Finance](https://fred.stlouisfed.org/categories/32991) category.
+The current scope of the project is for the [Money, Banking, & Finance](https://fred.stlouisfed.org/categories/32991) category.  Additional child categories for the Money, Banking, & Finance are presented below. 
 
 ### Resources
 1. FRED Homepage:  https://fred.stlouisfed.org/
@@ -50,8 +51,9 @@ The next level of categories for Money, Banking, & Finance:
 | 32360 | Business Lending | 32991 |
 | 32145 | Foreign Exchange Intervention | 32991 |
 
-Note, that each child category within Money, Banking, & Finance (id = 32991) is assigned a child id.  
-For example, child_id = 22 (Interest Rates) is linked to the prior higher level category using the parent_id field.
+Note, that each child category within Money, Banking, & Finance is assigned a child id that can be linked back to the respective parent_id.  Using child_id 22 as an example:
+
+0 -> 32991 -> 22 or Root Level -> Money, Banking, & Finance -> Interest Rates
 
 ### General Process
 
