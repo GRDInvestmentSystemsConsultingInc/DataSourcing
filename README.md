@@ -21,10 +21,6 @@ Construct a dictionary containing all parent and child relationships, along with
 
 3. FRED Categories (Web):  https://fred.stlouisfed.org/categories
 
-### Jupyter Notebook
-
-1. 
-
 ### FRED Data Stracture
 
 FRED utilizes parent and child ids to link levels in a hierchial manner.  
@@ -65,3 +61,7 @@ For example, child_id = 22 (Interest Rates) is linked to the prior higher level 
 
 3.  The following Excel file provides all the category relationships for the Money, Banking, & Finance category: [Category 32991 Parent-Child Category Relationships](https://github.com/GRDInvestmentSystemsConsultingInc/DataSourcing/blob/main/FRED/Category32991_parent_child_relationships.xlsx).  From left to right, each subsequent column within the Excel represents the child category of the prior until no further category levels are available.  Blank columns indicate that no further categories exist.
 4.  All parent-child relationships are captured within the three levels presented within the Excel file.
+
+### Jupyter Notebook: [MasterDictionary_Open_Category_32991.ipynb](https://github.com/GRDInvestmentSystemsConsultingInc/DataSourcing/blob/35e90405f01326e4f1d749c8cb3a1682174727b3/FRED/MasterDictionary_Open_Category_32991.ipynb)
+
+This notebook illustrates how the parent-child relationships can be used in conjution with the dictionary for category 32991.  The notebook does not call any series data, as this was beyond the scope of this project, however the 'Series' API end point is used to call this data.  The user must request an API Key from FRED to source this data.
