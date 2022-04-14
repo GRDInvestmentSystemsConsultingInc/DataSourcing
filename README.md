@@ -13,7 +13,7 @@ Construct a dictionary containing all parent and child relationships, along with
 
 ### Project Scope
 
-The current scope of the project is for the [Money, Banking, & Finance](https://fred.stlouisfed.org/categories/32991) category.  Additional child categories for the Money, Banking, & Finance are presented below. 
+The current scope of the project is for the [Money, Banking, & Finance](https://fred.stlouisfed.org/categories/32991) category.
 
 ### Resources
 1. FRED Homepage:  https://fred.stlouisfed.org/
