@@ -51,7 +51,7 @@ The next level of categories for Money, Banking, & Finance:
 | 32360 | Business Lending | 32991 |
 | 32145 | Foreign Exchange Intervention | 32991 |
 
-Note, that each child category within Money, Banking, & Finance is assigned a child id that can be linked back to the respective parent_id.  Using child_id 22 as an example:
+Note, that each category within Money, Banking, & Finance is assigned a child id that can be linked back to the respective parent_id.  Using child_id 22 as an example:
 
 0 -> 32991 -> 22 or Root Level -> Money, Banking, & Finance -> Interest Rates
 
