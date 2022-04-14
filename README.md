@@ -57,7 +57,7 @@ Note, that each category within Money, Banking, & Finance is assigned a child id
 
 ### General Process
 
-1. To ensure all data levels were sourced for dictionary construction purposes, the [fred/category/children](https://api.stlouisfed.org/fred/category/children?category_id=13&api_key=abcdefghijklmnopqrstuvwxyz123456&file_type=json) api endpoint was used to call subsequent category levels until no further category information was returned.
+1. To ensure all data levels were sourced for dictionary construction purposes, the fred/category/children api endpoint was used to call subsequent category levels until no further category information was returned.
 
 2.  FRED does not specifically note where series data will appear.  Time series data may appear at a series data end point or within a category that is further segmented into child categories.  This was addressed within the solution.
 
