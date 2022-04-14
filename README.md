@@ -8,7 +8,7 @@ Construct a dictionary containing all parent and child relationships, along with
 
 1.  Provides greater understanding of the time series data that is available in FRED by centralizing data,
 2.  Constructs a single dictionary upon which to build an automated data sourcing platform for analytical purposes (i.e. time series analysis, ML algo, charting, etc.)
-3.  Constructs a list of time series mnemonics for a given FRED category, which can be easily integrated in addional code to call time series data from FRED
+3.  Constructs a list of time series mnemonics for a given FRED category, which can be easily integrated into addional code to call time series data from FRED
 4.  A programmatic approach to sourcing economic time series data
 
 ### Project Scope
